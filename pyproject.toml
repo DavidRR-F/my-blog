@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "hugo-blog"
+version = "0.1.0"
+description = ""
+authors = ["DavidRR-F <david.rosefranklin96@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+obsidian-to-hugo = "^12023.3.21"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.scripts]
+convert = "utils.convert:main"
