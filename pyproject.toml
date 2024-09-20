@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "hugo-blog"
+name = "utils"
 version = "0.1.0"
 description = ""
 authors = ["DavidRR-F <david.rosefranklin96@gmail.com>"]
