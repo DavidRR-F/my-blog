@@ -50,13 +50,20 @@ def process_file(file_contents: str) -> str:
 
     return processed_contents
 
+def filter_file(file_contents: str, file_path: str) -> bool:
+    if 'assets' in file_path:
+        return False
+
+    return True 
+
 def main():
     cwd = os.getcwd()
 
     obsidian_to_hugo = ObsidianToHugo(
         obsidian_vault_dir=os.path.join(cwd, 'obsidian'),
         hugo_content_dir=os.path.join(cwd, 'blog', 'content'),
-        processors=[process_file]
+        processors=[process_file],
+        filters=[filter_file]
     )
 
     obsidian_to_hugo.run()
