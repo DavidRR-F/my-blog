@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Blog Test.md",
+                "file": "posts/Blog Test.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Blog Test.md",
+                "file": "posts/Blog Test.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Blog Test.md",
+                "file": "posts/Blog Test.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Blog Test.md"
+                "file": "posts/Blog Test.md"
               }
             }
           }
@@ -148,7 +148,10 @@
   },
   "active": "be8394c6c93bd568",
   "lastOpenFiles": [
-    "link.md",
-    "Blog Test.md"
+    "assets/Pasted image 20240921092909.png",
+    "assets",
+    "posts",
+    "posts/link.md",
+    "posts/Blog Test.md"
   ]
 }

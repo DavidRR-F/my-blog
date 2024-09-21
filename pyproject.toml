@@ -6,7 +6,7 @@ authors = ["DavidRR-F <david.rosefranklin96@gmail.com>"]
 readme = "README.md"
 
 [tool.poetry.dependencies]
-python = "^3.11"
+python = "^3.10"
 obsidian-to-hugo = "^12023.3.21"
 
 
