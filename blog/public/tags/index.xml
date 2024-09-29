@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Tags - Tag - Blog - David Franklin</title>
+    <title>Tags - Tag - Nerd Sniped - Blog</title>
     <link>http://localhost:1313/tags/</link>
-    <description>Blog - David Franklin</description>
-    <generator>Hugo 0.134.3 &amp; FixIt v0.3.12-b727c382</generator>
+    <description>Nerd Sniped - Blog</description>
+    <generator>Hugo 0.135.0 &amp; FixIt v0.3.12-b727c382</generator>
     <language>en-us</language>
     <lastBuildDate></lastBuildDate>
     <atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />

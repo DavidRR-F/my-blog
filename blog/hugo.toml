@@ -1,9 +1,54 @@
 baseURL = 'https://blog.shagbaggins.dev/'
 languageCode = 'en-us'
-title = 'Blog - David Franklin'
+title = 'Nerd Sniped - Blog'
 theme = 'FixIt'
-
+relativeURL = true
 [params]
+  [params.header]
+    desktopMode = "sticky"
+    mobileMode = "auto"
+  [params.header.title]
+    logo = "nerdsniped.png"
+    name = " Nerd Sniped"
+    pre = ""
+    post = ""
+    typeit = false
+  [params.header.subtitle]
+    name = "Blogs and Guides"
+    typeit = false
+  [params.author]
+    name = "David Rose-Franklin"
+    email = ""
+    link = ""
+    avatar = "avatar.webp"
+  [params.social]
+    GitHub = "DavidRR-F"
+    Instagram = "shagbaggins"
+  [params.app]
+    name = ""
+    shortName = ""
+    noFavicon = false
+    svgFavicon = "favicon.svg"
+    iconColor = "#5bbad5"
+    tileColor = "#da532c"
+  [params.app.themeColor]
+    light = "#f8f8f8"
+    dark = "#252627"
+  [params.home]
+    paginate = 10
+    [params.home.profile]
+      enable = true
+      gravatarEmail = "shagbaggins@proton.me"
+      avatarURL = "avatar.webp"
+      avatarMenu = ""
+      title = "David Rose-Franklin"
+      subtitle = "Human Generated Guides"
+      typeit = true
+      social = true
+      disclaimer = ""
+    [params.home.posts]
+      enable = true
+      paginate = 6
   [params.search]
     enable = true 
     type = "fuse"
@@ -27,3 +72,30 @@ theme = 'FixIt'
       ignoreLocation = false
       useExtendedSearch = false
       ignoreFieldNorm = false
+    [params.footer]
+      enable = true
+      copyright = true
+      author = true
+      since = ""
+      gov = ""
+      icp = ""
+      license = ""
+    [params.footer.powered]
+      enable = true
+      hugoLogo = true
+      themeLogo = true
+    [params.footer.siteTime]
+      enable = false
+      animate = true
+      icon = "fa-solid fa-heartbeat"
+      pre = ""
+      value = ""
+    [params.footer.order]
+      powered = 0
+      copyright = 0
+      statistics = 0
+      visitor = 0
+      beian = 0
+
+[outputs]
+  home = ["html", "rss", "archives", "offline", "search"]

@@ -13,13 +13,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "posts/Blog Test.md",
+                "file": "posts/test/index.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "0ef4932e9c38a343",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "posts/test/index.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -85,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "posts/Blog Test.md",
+                "file": "posts/test/index.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "posts/Blog Test.md",
+                "file": "posts/test/index.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "posts/Blog Test.md"
+                "file": "posts/test/index.md"
               }
             }
           }
@@ -146,12 +159,16 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "be8394c6c93bd568",
+  "active": "0ef4932e9c38a343",
   "lastOpenFiles": [
-    "assets/Pasted image 20240921092909.png",
-    "assets",
-    "posts",
+    "posts/test/images/post.png",
+    "posts/test/index.md",
+    "posts/about.md",
+    "posts/test/images",
     "posts/link.md",
-    "posts/Blog Test.md"
+    "posts/Pasted image 20240921092909.png",
+    "posts/test",
+    "assets",
+    "posts"
   ]
 }
